@@ -1,0 +1,50 @@
+body {
+	background-color: black;
+	font-size: 15px;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	margin: 10px;
+  color:  #FF8C00;
+  font-weight: bold;
+
+
+	
+}
+
+.banner{
+  height:80vh;
+  background-image: url(images/ateez_2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+img{
+	border-radius: 90%;
+	padding-top: 1em;
+
+
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  padding-right:50px;
+  margin: 5px;
+  padding-left: 55px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  clear: both;
+  display: table;
+
+}
+
+.center {
+	text-align: center;
+}

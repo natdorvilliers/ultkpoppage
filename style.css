@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: silver;
+}
+
+
+.bg-image {
+ 
+  height: 80%; 
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.img1 { background-image: url("images/bts_2.jpg"); }
+.img2 { background-image: url("images/got7_3.jpg"); }
+.img3 { background-image: url("images/svt3.jpg"); }
+.img4 { background-image: url("images/nct127_3.jpg"); }
+.img5 { background-image: url("images/nctu_3.jpg"); }
+.img6 { background-image: url("images/nctdream_3.jpg"); }
+.img7 { background-image: url("images/straykids.png"); }
+.img8 { background-image: url("images/ateez_1.jpg"); }
+
+
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); 
+  text-shadow: 3px 3px silver;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 35px;
+  border: 10px solid #f1f1f1;
+  position: fixed; /* Stay fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
